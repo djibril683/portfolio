@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Djibril | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Je m'appelle Djibril</h1>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Mes projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>À propos</h2>
+        <div class="profil">
+          <img src="image/pierre.jpg" alt="Photo de profil" width="200" />
+          <p>Je suis <strong>étudiant</strong> en <em>ingénierie</em>.</p>
+        </div>
+      </section>
+      <section id="competences">
+        <h2>Mes compétences</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>Domaine</th>
+              <th>Niveau</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Intermédiaire</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Intermédiaire</td>
+            </tr>
+            <tr>
+              <td>PYTHON</td>
+              <td>Intermédiaire</td>
+            </tr>
+            <tr>
+              <td>JAVA</td>
+              <td>Intermédiaire</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="projets">
+        <h2>Voici mes projets</h2>
+        <div class="projets">
+          <div class="carte">
+            <h3>Projet 1</h3>
+            <p>POO</p>
+          </div>
+          <div class="carte">
+            <h3>Projet 2</h3>
+            <p>Développement Web</p>
+          </div>
+          <div class="carte">
+            <h3>Projet 3</h3>
+            <p>Big Data</p>
+          </div>
+          <div class="carte">
+            <h3>Projet 4</h3>
+            <p>Deep learning</p>
+          </div>
+          <div class="carte">
+            <h3>Projet 5</h3>
+            <p>Machine learning</p>
+          </div>
+          <div class="carte">
+            <h3>Projet 6</h3>
+            <p>Système embarqué</p>
+          </div>
+        </div>
+        <section id="contact">
+          <h2>Mes contacts</h2>
+          <form action="#" method="post">
+            <label for="nom">Nom</label>
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              placeholder="votre nom"
+              required
+            />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Envoyer</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      <p>© 2026 Ndiaye</p>
+    </footer>
+  </body>
+</html>
