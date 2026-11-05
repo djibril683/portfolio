@@ -1,3 +1,7 @@
+:root {
+  --couleur-principale: blue;
+  --couleur-survol: darkblue;
+}
 * {
   box-sizing: border-box;
 }
@@ -8,7 +12,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: blue;
+  background-color: var(--couleur-principale);
   color: white;
   padding: 20px;
   display: flex;
@@ -88,6 +92,7 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 10px;
+  justify-content: space-between;
 }
 
 table {
@@ -104,7 +109,7 @@ td {
 }
 
 th {
-  background-color: blue;
+  background-color: var(--couleur-principale);
   color: white;
 }
 form {
@@ -123,7 +128,7 @@ textarea {
 }
 
 button {
-  background-color: blue;
+  background-color: var(--couleur-principale);
   color: white;
   border: none;
   padding: 12px;
@@ -138,6 +143,9 @@ html {
 }
 section {
   scroll-margin-top: 100px;
+}
+button:hover {
+  background: var(--couleur-principale);
 }
 @media (max-width: 600px) {
   header {
